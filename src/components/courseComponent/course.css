@@ -18,3 +18,10 @@ button{
 .notenrolled{
     background-color: lightcoral;
 }
+.toogleCourse{
+    font-size: 20px;
+    text-align: center;
+}
+.activeCourse{
+    background-color: aquamarine;
+}

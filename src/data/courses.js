@@ -1,4 +1,4 @@
-const courses = [
+const Btech_Courses = [
   {
     name: 'Introduction to React',
     code: 'REACT101',
@@ -60,5 +60,71 @@ const courses = [
     enrolled: true,
   },
 ];
+
+
+const Mbbs_Courses = [
+  {
+    name: 'Anatomy',
+    code: 'ANATOMY101',
+    description: 'Study the structure of the human body.',
+    enrolled: false,
+  },
+  {
+    name: 'Physiology',
+    code: 'PHYSIOLOGY201',
+    description: 'Explore the functions of organs and systems.',
+    enrolled: true,
+  },
+  {
+    name: 'Biochemistry',
+    code: 'BIOCHEM301',
+    description: 'Learn about biochemical processes in living organisms.',
+    enrolled: false,
+  },
+  {
+    name: 'Pathology',
+    code: 'PATHOLOGY401',
+    description: 'Diagnose diseases and understand their causes.',
+    enrolled: true,
+  },
+  {
+    name: 'Pharmacology',
+    code: 'PHARMACOLOGY501',
+    description: 'Study drugs and their effects on the body.',
+    enrolled: false,
+  },
+  {
+    name: 'Microbiology',
+    code: 'MICROBIOLOGY601',
+    description: 'Explore microorganisms and their impact on health.',
+    enrolled: true,
+  },
+  {
+    name: 'Community Medicine',
+    code: 'COMMUNITYMED701',
+    description: 'Understand public health and preventive medicine.',
+    enrolled: false,
+  },
+  {
+    name: 'Surgery',
+    code: 'SURGERY801',
+    description: 'Learn surgical techniques and procedures.',
+    enrolled: true,
+  },
+  {
+    name: 'Obstetrics and Gynecology',
+    code: 'OBGYNE901',
+    description: 'Focus on women’s health and childbirth.',
+    enrolled: false,
+  },
+  {
+    name: 'Internal Medicine',
+    code: 'INTERNALMED1001',
+    description: 'Study diseases and medical management.',
+    enrolled: true,
+  },
+];
+
+const courses = [Btech_Courses, Mbbs_Courses]
 
 export default courses;
