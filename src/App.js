@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Nav from './components/navbar/navbar';
 import CourseList from './components/courseComponent/course.list';
 import courses from './data/courses';
